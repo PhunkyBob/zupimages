@@ -6,7 +6,7 @@ import html
 from tabulate import tabulate
 import argparse
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 url = "https://www.zupimages.net/up.php"
 user_agent = (
@@ -97,7 +97,7 @@ def before_exit():
 def main() -> None:
     global pause_before_exit
     print(f"zupimages - {git_repo}")
-    check_version(__version__)
+    # check_version(__version__)
     parser = argparse.ArgumentParser(
         description=f'Script to upload a file to "zupimages.net".\nSource: {git_repo}',
         formatter_class=argparse.RawTextHelpFormatter,
