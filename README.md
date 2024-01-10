@@ -1,6 +1,6 @@
 # zupimages
 
-Script to upload a file to "zupimages.net".
+Script to upload a file to [ZupImages](https://www.zupimages.net).
 
 # Usage
 
